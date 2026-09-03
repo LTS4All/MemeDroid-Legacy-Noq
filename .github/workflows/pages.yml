@@ -6,16 +6,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -29,23 +27,14 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Build
         run: npm run build
-      - name: Prepare static Pages artifact
+      - name: Prepare static Pages site
         run: |
           cp .vercel/output/static/legacy/index.html .vercel/output/static/index.html
           touch .vercel/output/static/.nojekyll
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Publish gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: .vercel/output/static
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    name: Deploy
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: .vercel/output/static
+          force_orphan: true
