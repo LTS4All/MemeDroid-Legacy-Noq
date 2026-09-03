@@ -1,0 +1,129 @@
+/* iOS 6 / iOS 9.3.5 — CSS2 + a little CSS3. No flexbox, no grid, no variables. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f3ede3;
+  color: #1c1410;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+img { border: 0; max-width: 100%; height: auto; display: block; }
+a { color: #c2410c; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+#bar {
+  background: #c2410c;
+  color: #fff7ed;
+}
+#bar td { padding: 8px; vertical-align: middle; }
+#bar h1 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+}
+#bar p {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+#sub {
+  background: #9a3412;
+  color: #fff7ed;
+  padding: 0;
+}
+#sub a {
+  display: inline-block;
+  padding: 11px 10px;
+  color: #fff7ed;
+  font-size: 14px;
+  font-weight: bold;
+}
+#sub a.on { background: #f3ede3; color: #1c1410; }
+
+#wrap { max-width: 640px; margin: 0 auto; padding: 8px; }
+.intro {
+  background: #fffbf5;
+  border: 1px solid #d9cdbc;
+  padding: 10px 12px;
+  margin: 8px 0 12px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.card {
+  background: #fffbf5;
+  border: 1px solid #d9cdbc;
+  margin: 0 0 12px;
+}
+.card h2 {
+  margin: 0;
+  padding: 10px 12px 2px;
+  font-size: 18px;
+}
+.card .meta {
+  padding: 0 12px 8px;
+  color: #6b5e55;
+  font-size: 12px;
+}
+.card .pic { background: #1c1410; text-align: center; }
+.card .pic img { margin: 0 auto; }
+.bar {
+  padding: 8px 12px 10px;
+  font-size: 14px;
+}
+.score { font-size: 18px; font-weight: bold; color: #2f6b3a; }
+.btn {
+  display: inline-block;
+  padding: 10px 14px;
+  margin: 4px 4px 0 0;
+  background: #c2410c;
+  color: #fff7ed;
+  font-weight: bold;
+  font-size: 14px;
+  border: 0;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.btn.up { background: #2f6b3a; }
+.btn.down { background: #a33b2a; }
+.btn.ghost { background: #fffbf5; color: #1c1410; border: 1px solid #d9cdbc; }
+
+form.row { margin: 8px 0; }
+input, textarea, select {
+  font-size: 16px; /* iOS zoom lock */
+  padding: 8px;
+  width: 96%;
+  border: 1px solid #d9cdbc;
+  background: #fff;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.stage { position: relative; background: #1c1410; }
+.cap {
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-shadow: 0 0 4px #000, 1px 1px 0 #000, -1px -1px 0 #000;
+}
+.cap.top { top: 8px; }
+.cap.bot { bottom: 8px; }
+
+.comment {
+  border-top: 1px solid #d9cdbc;
+  padding: 8px 0;
+  font-size: 14px;
+}
+#status { color: #6b5e55; padding: 12px; text-align: center; }
+#foot {
+  color: #6b5e55;
+  font-size: 12px;
+  text-align: center;
+  padding: 16px 8px 24px;
+}

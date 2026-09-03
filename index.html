@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Memedroid">
+  <meta name="format-detection" content="telephone=no">
+  <title>Memedroid Legacy</title>
+  <link rel="stylesheet" href="/legacy/css/legacy.css" type="text/css">
+  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+</head>
+<body>
+  <table id="bar" width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="48"><a href="/legacy/"><img src="/logo.jpg" width="40" height="40" alt="Memedroid"></a></td>
+      <td>
+        <h1>memedroid</h1>
+        <p>Legacy · iOS 6 / 9.3.5</p>
+      </td>
+    </tr>
+  </table>
+  <div id="sub">
+    <a href="/legacy/?g=trending">Trending</a>
+    <a href="/legacy/?g=latest">Latest</a>
+    <a href="/legacy/?g=top">Top</a>
+    <a href="/legacy/?g=classics">Classics</a>
+    <a href="/legacy/?g=random">Random</a>
+    <a href="/legacy/generate.html">Generate</a>
+    <a href="/legacy/ios.html">iOS app</a>
+  </div>
+  <div id="wrap">
+    <div class="intro">
+      Built for iPhone 4, iPad 2 and iOS 9.3.5. JPEG only, tables, XMLHttpRequest.
+      Add to Home Screen from Safari.
+    </div>
+    <form class="row" action="/legacy/" method="get">
+      <input type="hidden" name="g" value="trending">
+      <input type="text" name="q" placeholder="Search memes">
+      <button class="btn" type="submit">Search</button>
+    </form>
+    <div id="feed"><p id="status">Loading memes…</p></div>
+    <div id="foot">Unofficial Memedroid client. Not affiliated with Memedroid.</div>
+  </div>
+  <script src="/legacy/js/app.js" type="text/javascript"></script>
+  <script type="text/javascript">MDLegacy.loadFeed();</script>
+</body>
+</html>
