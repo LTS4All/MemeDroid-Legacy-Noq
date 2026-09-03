@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* main.m */; };
+		A10000000000000000000002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* AppDelegate.m */; };
+		A10000000000000000000003 /* MDAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* MDAPIClient.m */; };
+		A10000000000000000000004 /* MDMeme.m in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* MDMeme.m */; };
+		A10000000000000000000005 /* MDFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* MDFeedViewController.m */; };
+		A10000000000000000000006 /* MDMemeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* MDMemeCell.m */; };
+		A10000000000000000000007 /* MDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* MDDetailViewController.m */; };
+		A10000000000000000000008 /* MDGenerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* MDGenerateViewController.m */; };
+		A10000000000000000000009 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* Icon.png */; };
+		A1000000000000000000000A /* ethan.b@example.com in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* ethan.b@example.com */; };
+		A1000000000000000000000B /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* Icon-120.png */; };
+		A1000000000000000000000C /* Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* Icon-180.png */; };
+		A1000000000000000000000D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* UIKit.framework */; };
+		A1000000000000000000000E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* Foundation.framework */; };
+		A1000000000000000000000F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B10000000000000000000002 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B10000000000000000000012 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B10000000000000000000003 /* MDAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDAPIClient.m; sourceTree = "<group>"; };
+		B10000000000000000000013 /* MDAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDAPIClient.h; sourceTree = "<group>"; };
+		B10000000000000000000004 /* MDMeme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMeme.m; sourceTree = "<group>"; };
+		B10000000000000000000014 /* MDMeme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMeme.h; sourceTree = "<group>"; };
+		B10000000000000000000005 /* MDFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDFeedViewController.m; sourceTree = "<group>"; };
+		B10000000000000000000015 /* MDFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDFeedViewController.h; sourceTree = "<group>"; };
+		B10000000000000000000006 /* MDMemeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMemeCell.m; sourceTree = "<group>"; };
+		B10000000000000000000016 /* MDMemeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMemeCell.h; sourceTree = "<group>"; };
+		B10000000000000000000007 /* MDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDDetailViewController.m; sourceTree = "<group>"; };
+		B10000000000000000000017 /* MDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDDetailViewController.h; sourceTree = "<group>"; };
+		B10000000000000000000008 /* MDGenerateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDGenerateViewController.m; sourceTree = "<group>"; };
+		B10000000000000000000018 /* MDGenerateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDGenerateViewController.h; sourceTree = "<group>"; };
+		B10000000000000000000009 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		B1000000000000000000000A /* ethan.b@example.com */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ethan.b@example.com"; path = "Resources/ethan.b@example.com"; sourceTree = "<group>"; };
+		B1000000000000000000000B /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "Resources/Icon-120.png"; sourceTree = "<group>"; };
+		B1000000000000000000000C /* Icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-180.png"; path = "Resources/Icon-180.png"; sourceTree = "<group>"; };
+		B1000000000000000000000D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1000000000000000000000E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1000000000000000000000F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B10000000000000000000019 /* MemedroidLegacy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MemedroidLegacy-Info.plist"; sourceTree = "<group>"; };
+		B1000000000000000000001A /* MemedroidLegacy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemedroidLegacy-Prefix.pch"; sourceTree = "<group>"; };
+		B1000000000000000000001B /* MemedroidLegacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemedroidLegacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000000D /* UIKit.framework in Frameworks */,
+				A1000000000000000000000E /* Foundation.framework in Frameworks */,
+				A1000000000000000000000F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000002 /* MemedroidLegacy */,
+				D10000000000000000000003 /* Frameworks */,
+				D10000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* MemedroidLegacy */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000012 /* AppDelegate.h */,
+				B10000000000000000000002 /* AppDelegate.m */,
+				B10000000000000000000001 /* main.m */,
+				B10000000000000000000019 /* MemedroidLegacy-Info.plist */,
+				B1000000000000000000001A /* MemedroidLegacy-Prefix.pch */,
+				D10000000000000000000005 /* Classes */,
+				D10000000000000000000006 /* Resources */,
+			);
+			name = MemedroidLegacy;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000D /* UIKit.framework */,
+				B1000000000000000000000E /* Foundation.framework */,
+				B1000000000000000000000F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000001B /* MemedroidLegacy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000005 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000013 /* MDAPIClient.h */,
+				B10000000000000000000003 /* MDAPIClient.m */,
+				B10000000000000000000014 /* MDMeme.h */,
+				B10000000000000000000004 /* MDMeme.m */,
+				B10000000000000000000015 /* MDFeedViewController.h */,
+				B10000000000000000000005 /* MDFeedViewController.m */,
+				B10000000000000000000016 /* MDMemeCell.h */,
+				B10000000000000000000006 /* MDMemeCell.m */,
+				B10000000000000000000017 /* MDDetailViewController.h */,
+				B10000000000000000000007 /* MDDetailViewController.m */,
+				B10000000000000000000018 /* MDGenerateViewController.h */,
+				B10000000000000000000008 /* MDGenerateViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000006 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000009 /* Icon.png */,
+				B1000000000000000000000A /* ethan.b@example.com */,
+				B1000000000000000000000B /* Icon-120.png */,
+				B1000000000000000000000C /* Icon-180.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* MemedroidLegacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000002 /* Build configuration list for PBXNativeTarget "MemedroidLegacy" */;
+			buildPhases = (
+				E10000000000000000000002 /* Sources */,
+				C10000000000000000000001 /* Frameworks */,
+				E10000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemedroidLegacy;
+			productName = MemedroidLegacy;
+			productReference = B1000000000000000000001B /* MemedroidLegacy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Memedroid Legacy";
+			};
+			buildConfigurationList = F10000000000000000000001 /* Build configuration list for PBXProject "MemedroidLegacy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D10000000000000000000001;
+			productRefGroup = D10000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* MemedroidLegacy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000009 /* Icon.png in Resources */,
+				A1000000000000000000000A /* ethan.b@example.com in Resources */,
+				A1000000000000000000000B /* Icon-120.png in Resources */,
+				A1000000000000000000000C /* Icon-180.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* main.m in Sources */,
+				A10000000000000000000002 /* AppDelegate.m in Sources */,
+				A10000000000000000000003 /* MDAPIClient.m in Sources */,
+				A10000000000000000000004 /* MDMeme.m in Sources */,
+				A10000000000000000000005 /* MDFeedViewController.m in Sources */,
+				A10000000000000000000006 /* MDMemeCell.m in Sources */,
+				A10000000000000000000007 /* MDDetailViewController.m in Sources */,
+				A10000000000000000000008 /* MDGenerateViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F20000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F20000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F20000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemedroidLegacy-Prefix.pch";
+				INFOPLIST_FILE = "MemedroidLegacy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = MemedroidLegacy;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F20000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemedroidLegacy-Prefix.pch";
+				INFOPLIST_FILE = "MemedroidLegacy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = MemedroidLegacy;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 /* Build configuration list for PBXProject "MemedroidLegacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20000000000000000000001 /* Debug */,
+				F20000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000002 /* Build configuration list for PBXNativeTarget "MemedroidLegacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20000000000000000000003 /* Debug */,
+				F20000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E10000000000000000000000 /* Project object */;
+}

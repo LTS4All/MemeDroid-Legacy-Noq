@@ -1,0 +1,1 @@
+import{l as e}from"./types-DOCvsmlu.js";import{t}from"./SiteHeader-BE1EJRoq.js";var n=e(),r=()=>(0,n.jsx)(t,{children:(0,n.jsx)(`p`,{className:`py-16 text-center text-muted`,children:`That meme is gone.`})});export{r as notFoundComponent};
